@@ -86,11 +86,8 @@ Os gráficos abaixo foram gerados com dados simulados que replicam a estrutura d
 
 # 4️⃣ Arquivos Gerados
 
-- **noticias_coletadas.csv**  
-- **noticias_filtradas.csv**  
-
-### 📁 Pasta `/imgs` contendo:
-
+ **noticias_coletadas.csv**  
+ **noticias_filtradas.csv**  
 
 ---
 
