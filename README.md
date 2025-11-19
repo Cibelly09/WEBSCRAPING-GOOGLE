@@ -1,7 +1,7 @@
 <div align="center">
 
-# 📰🤖 WebScraping — Monitoramento Automático de Notícias  
-Pipeline automatizado para coleta, filtragem e exportação de notícias utilizando Google News.
+# 📰✨ Web Scraping Premium de Notícias  
+Automação inteligente para coleta, filtragem e análise de notícias usando Python.
 
 </div>
 
@@ -11,7 +11,9 @@ Pipeline automatizado para coleta, filtragem e exportação de notícias utiliza
 
 ## 🎯 Objetivo Geral
 
-Demonstrar uma automação completa que realiza busca de notícias na web, extrai informações relevantes (título, trecho, link e data), aplica filtros temáticos e exporta o resultado para análises profissionais ou uso em pipelines.
+Este projeto realiza a raspagem automatizada de notícias no **Google News**, permitindo buscas avançadas, coleta estruturada, filtragem por relevância e análise visual (simulada) dos resultados.
+
+Ideal para estudos, monitoramento de temas e construção de portfólios profissionais.
 
 </div>
 
@@ -19,27 +21,28 @@ Demonstrar uma automação completa que realiza busca de notícias na web, extra
 
 <div align="center">
 
-# 1️⃣ Coleta e Processamento das Notícias
+# 1️⃣ Web Scraping — Como Funciona
 
-## 🔍 Objetivo  
-Extrair automaticamente notícias de múltiplas buscas no Google News, simulando um navegador real.
+## 🔍 Etapas Executadas
 
-<br>
-
-## 📌 Etapas Realizadas  
-✔ Montagem dinâmica da URL de busca  
-✔ Extração de título, trecho, link e data relativa  
-✔ Identificação de notícias recentes  
-✔ Tratamento de HTML com BeautifulSoup  
-✔ Organização dos resultados em lista estruturada  
+✔️ Busca automática no Google News  
+✔️ Suporte a múltiplos termos  
+✔️ Coleta de título, resumo, link e data relativa  
+✔️ Padronização da estrutura dos dados  
+✔️ Salvamento dos resultados em CSV  
+✔️ Filtragem inteligente por palavras-chave  
 
 <br>
 
-## 🖼️ Exemplos de Código  
-*(Substitua as imagens abaixo pelas suas)*  
+## 🛠️ Principais Tecnologias
 
-![Função Scraping](imgs/funcao_scraping.png)  
-![Loop Buscas](imgs/loop_buscas.png)
+| Tecnologia | Aplicação |
+|-----------|-----------|
+| **Python** | Linguagem utilizada |
+| **Requests** | Acesso à página do Google News |
+| **BeautifulSoup (bs4)** | Extração dos dados HTML |
+| **CSV** | Exportação dos resultados |
+| **Matplotlib (simulação)** | Gráficos de análise |
 
 </div>
 
@@ -47,23 +50,31 @@ Extrair automaticamente notícias de múltiplas buscas no Google News, simulando
 
 <div align="center">
 
-# 2️⃣ Filtragem de Notícias
+# 2️⃣ Visualizações (Simuladas)
 
-## 🧪 Objetivo  
-Selecionar apenas notícias relevantes com base em palavras-chave configuráveis.
+Para tornar o projeto visual e apresentável em portfólios, foram gerados **gráficos com dados simulados**, respeitando a estrutura real dos resultados obtidos pelo script.
 
-<br>
+Essas imagens podem ser exibidas no README do GitHub ou em apresentações.
 
-## 📌 Etapas  
-✔ Definição de lista de palavras-chave  
-✔ Combinação de título + trecho  
-✔ Busca por termos críticos (risco, desabamento, irregularidade etc.)  
-✔ Lista final com apenas itens relevantes ao tema  
+---
 
-<br>
+### 📌 Total de Notícias por Termo  
+<img src="imgs/noticias_por_termo.png" width="500">
 
-## 🖼️ Código da Filtragem  
-![Filtro Keywords](imgs/filtro_keywords.png)
+---
+
+### 📌 Notícias Filtradas por Termo  
+<img src="imgs/noticias_filtradas_termo.png" width="500">
+
+---
+
+### 📌 Distribuição por Data Relativa  
+<img src="imgs/noticias_por_data.png" width="500">
+
+---
+
+### 📌 Nuvem de Palavras (Simulada)  
+<img src="imgs/nuvem_simulada.png" width="500">
 
 </div>
 
@@ -71,26 +82,15 @@ Selecionar apenas notícias relevantes com base em palavras-chave configuráveis
 
 <div align="center">
 
-# 3️⃣ Exportação dos Resultados
+# 3️⃣ Estrutura Completa do Script
 
-## 📦 Objetivo  
-Gerar automaticamente o arquivo consolidado das notícias em formato CSV para BI e relatórios.
+O código realiza:
 
-<br>
-
-## 📌 Saída Final  
-`noticias_construcao.csv` contendo:  
-
-- Título  
-- Trecho  
-- Link  
-- Data relativa  
-- Termo de origem (busca que encontrou a notícia)
-
-<br>
-
-## 🖼️ Exportação  
-![Export CSV](imgs/export_csv.png)
+✔️ Coleta automatizada  
+✔️ Tratamento dos resultados  
+✔️ Filtragem por palavras-chave  
+✔️ Exportação para CSV  
+✔️ Simulação de gráficos para portfólio
 
 </div>
 
@@ -98,19 +98,10 @@ Gerar automaticamente o arquivo consolidado das notícias em formato CSV para BI
 
 <div align="center">
 
-# 4️⃣ Tecnologias Utilizadas
+# 4️⃣ Arquivos Gerados
 
-Python  
-Requests  
-BeautifulSoup  
-Time  
-CSV  
+- `noticias_coletadas.csv` → todas as notícias extraídas  
+- `noticias_filtradas.csv` → resultados após aplicar filtros  
+- Imagens em `/imgs/` para fins visuais:
 
-</div>
-
----
-
-<div align="center">
-
-# 🧩 5️⃣ Estrutura do Projeto
 
