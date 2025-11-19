@@ -39,10 +39,10 @@ Ideal para estudos, monitoramento de temas e construção de portfólios profiss
 | Tecnologia | Aplicação |
 |-----------|-----------|
 | **Python** | Linguagem utilizada |
-| **Requests** | Acesso à página do Google News |
-| **BeautifulSoup (bs4)** | Extração dos dados HTML |
+| **Requests** | Acesso ao Google News |
+| **BeautifulSoup (bs4)** | Extração de dados HTML |
 | **CSV** | Exportação dos resultados |
-| **Matplotlib (simulação)** | Gráficos de análise |
+| **Matplotlib (simulação)** | Geração de gráficos |
 
 </div>
 
@@ -52,9 +52,7 @@ Ideal para estudos, monitoramento de temas e construção de portfólios profiss
 
 # 2️⃣ Visualizações (Simuladas)
 
-Para tornar o projeto visual e apresentável em portfólios, foram gerados **gráficos com dados simulados**, respeitando a estrutura real dos resultados obtidos pelo script.
-
-Essas imagens podem ser exibidas no README do GitHub ou em apresentações.
+Para tornar o projeto visual e apresentável em portfólios, foram gerados **gráficos com dados simulados**, respeitando a estrutura real esperada pelo scraping.
 
 ---
 
@@ -84,13 +82,13 @@ Essas imagens podem ser exibidas no README do GitHub ou em apresentações.
 
 # 3️⃣ Estrutura Completa do Script
 
-O código realiza:
+O script realiza:
 
-✔️ Coleta automatizada  
-✔️ Tratamento dos resultados  
-✔️ Filtragem por palavras-chave  
-✔️ Exportação para CSV  
-✔️ Simulação de gráficos para portfólio
+✔️ Raspagem completa do Google News  
+✔️ Tratamento e padronização dos dados coletados  
+✔️ Filtragem avançada de conteúdo  
+✔️ Exportação dos resultados para CSV  
+✔️ Geração de gráficos simulados para documentação e README  
 
 </div>
 
@@ -100,8 +98,18 @@ O código realiza:
 
 # 4️⃣ Arquivos Gerados
 
-- `noticias_coletadas.csv` → todas as notícias extraídas  
-- `noticias_filtradas.csv` → resultados após aplicar filtros  
-- Imagens em `/imgs/` para fins visuais:
+- **noticias_coletadas.csv** → todas as notícias extraídas  
+- **noticias_filtradas.csv** → notícias que contêm palavras relevantes  
+- **/imgs** → imagens utilizadas no README:
 
 
+</div>
+
+---
+
+<div align="center">
+
+# ✍️ Autoria  
+Cibelly Viegas — 2025  
+
+</div>
