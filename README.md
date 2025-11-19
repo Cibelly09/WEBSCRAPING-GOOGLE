@@ -62,17 +62,12 @@ Para tornar o projeto visual e apresentável em portfólios, foram gerados **gr�
 ---
 
 ### 📌 Notícias Filtradas por Termo  
-<img src="imgs/noticias_filtradas_termo.png" width="500">
+<img src="imgs/noticias_filtradas_termo_FIX.png" width="500">
 
 ---
 
 ### 📌 Distribuição por Data Relativa  
 <img src="imgs/noticias_por_data.png" width="500">
-
----
-
-### 📌 Nuvem de Palavras (Simulada)  
-<img src="imgs/nuvem_simulada.png" width="500">
 
 </div>
 
@@ -102,8 +97,6 @@ O script realiza:
 - **noticias_filtradas.csv** → notícias que contêm palavras relevantes  
 - **/imgs** → imagens utilizadas no README:
 
-
-</div>
 
 ---
 
