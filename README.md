@@ -28,21 +28,21 @@ Ideal para estudos, monitoramento de temas e construção de portfólios profiss
 ✔️ Busca automática no Google News  
 ✔️ Suporte a múltiplos termos  
 ✔️ Coleta de título, resumo, link e data relativa  
-✔️ Padronização da estrutura dos dados  
+✔️ Padronização dos dados  
 ✔️ Salvamento dos resultados em CSV  
 ✔️ Filtragem inteligente por palavras-chave  
 
 <br>
 
-## 🛠️ Principais Tecnologias
+## 🛠️ Tecnologias
 
-| Tecnologia | Aplicação |
-|-----------|-----------|
-| **Python** | Linguagem utilizada |
+| Tecnologia | Uso |
+|-----------|-----|
+| **Python** | Base do projeto |
 | **Requests** | Acesso ao Google News |
-| **BeautifulSoup (bs4)** | Extração de dados HTML |
-| **CSV** | Exportação dos resultados |
-| **Matplotlib (simulação)** | Geração de gráficos |
+| **BeautifulSoup** | Extração HTML |
+| **CSV** | Exportação |
+| **Matplotlib** | Visualizações simuladas |
 
 </div>
 
@@ -52,22 +52,22 @@ Ideal para estudos, monitoramento de temas e construção de portfólios profiss
 
 # 2️⃣ Visualizações (Simuladas)
 
-Para tornar o projeto visual e apresentável em portfólios, foram gerados **gráficos com dados simulados**, respeitando a estrutura real esperada pelo scraping.
+Os gráficos abaixo foram gerados com dados simulados que replicam a estrutura dos resultados reais esperados após o scraping.
 
 ---
 
 ### 📌 Total de Notícias por Termo  
-<img src="imgs/noticias_por_termo.png" width="500">
+<img src="imgs/noticias_por_termo.png" width="520">
 
 ---
 
 ### 📌 Notícias Filtradas por Termo  
-<img src="imgs/noticias_filtradas_termo_FIX.png" width="500">
+<img src="imgs/noticias_filtradas_termo.png" width="520">
 
 ---
 
 ### 📌 Distribuição por Data Relativa  
-<img src="imgs/noticias_por_data.png" width="500">
+<img src="imgs/noticias_por_data.png" width="520">
 
 </div>
 
@@ -75,15 +75,13 @@ Para tornar o projeto visual e apresentável em portfólios, foram gerados **gr�
 
 <div align="center">
 
-# 3️⃣ Estrutura Completa do Script
-
-O script realiza:
+# 3️⃣ Estrutura do Script
 
 ✔️ Raspagem completa do Google News  
-✔️ Tratamento e padronização dos dados coletados  
-✔️ Filtragem avançada de conteúdo  
-✔️ Exportação dos resultados para CSV  
-✔️ Geração de gráficos simulados para documentação e README  
+✔️ Tratamento e padronização  
+✔️ Filtragem por palavras-chave  
+✔️ Exportação CSV  
+✔️ Visualizações simuladas para documentação  
 
 </div>
 
@@ -93,9 +91,10 @@ O script realiza:
 
 # 4️⃣ Arquivos Gerados
 
-- **noticias_coletadas.csv** → todas as notícias extraídas  
-- **noticias_filtradas.csv** → notícias que contêm palavras relevantes  
-- **/imgs** → imagens utilizadas no README:
+- **noticias_coletadas.csv**  
+- **noticias_filtradas.csv**  
+
+### 📁 Pasta `/imgs` contendo:
 
 
 ---
