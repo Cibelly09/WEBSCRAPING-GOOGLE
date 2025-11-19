@@ -56,11 +56,6 @@ Os gráficos abaixo foram gerados com dados simulados que replicam a estrutura d
 
 ---
 
-### 📌 Total de Notícias por Termo  
-<img src="imgs/noticias_por_termo.png" width="520">
-
----
-
 ### 📌 Notícias Filtradas por Termo  
 <img src="imgs/noticias_filtradas_termo.png" width="520">
 
